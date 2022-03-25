@@ -1,0 +1,374 @@
+body {
+	background-image: url(img/fon.jpg);
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.navbar {
+	background-color: #303030;
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-menu li {
+	display: inline-block;
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	transition: all .07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+	opacity: 1;
+}
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: rgba(255, 114, 0, 1);
+	transition: all .07s ease-out;
+}
+
+.navbar-brand:hover {
+	color: rgba(255, 167, 19, 1);
+}
+
+.reviews {
+	background-color: rgba(255, 114, 0, 1);
+	border-radius: 100px;
+	color: #ddf;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 109, 0, 1);
+	transition: all .1 ease-in-out;
+	width: 150px;
+}
+
+.reviews:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 19px rgba(255, 93, 0, 1);
+}
+
+.services {
+	background-color: rgba(255, 114, 0, 1);
+	border-radius: 100px;
+	color: #ddf;
+	text-decoration: none;
+	box-shadow: 0 4px 16px rgba(255, 109, 0, 1);
+	transition: all .1 ease-in-out;
+	width: 150px;
+}
+
+.services:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 19px rgba(255, 93, 0, 1);
+}
+
+.help {
+	background-color: rgba(255, 114, 0, 1);
+	border-radius: 100px;
+	color: #ddf;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 109, 0, 1);
+	transition: all .1 ease-in-out;
+	width: 150px;
+}
+
+.help:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 19px rgba(255, 93, 0, 1);
+}
+
+.auth {
+	background-color: rgba(255, 114, 0, 1);
+	border-radius: 100px;
+	color: #ddf;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 109, 0, 1);
+	transition: all .1 ease-in-out;
+	width: 150px;
+}
+
+.auth:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 19px rgba(255, 93, 0, 1);
+}
+
+.text {
+	margin-left: 22px;
+	color: #fff;
+}
+
+.text1 {
+	margin-left: 27px;
+	color: #fff;
+}
+
+.text2 {
+	margin-left: 30px;
+	color: #fff;
+}
+
+.text3 {
+	margin-left: 110px;
+	color: #fff;
+}
+
+.text35 {
+	margin-left: 70px;
+	margin-top: 10px;
+	color: #fff;
+	cursor: default;
+}
+
+.bar {
+	width: 635px;
+	height: 60px;
+	border: 1px solid rgba(255, 114, 0, 1);
+	border-radius: 15px;
+	background-color: #232323;
+	margin-left: 30px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.text_bar {
+	color: #fff;
+	margin-left: 10px;
+}
+
+.next {
+	background-color: rgba(255, 114, 0, 1);
+	border-radius: 100px;
+	color: #ddf;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 109, 0, 1);
+	transition: all .1 ease-in-out;
+	margin-left: 490px;
+}
+
+.next:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 19px rgba(255, 93, 0, 1);
+}
+
+.sign_bar {
+	width: 635px;
+	height: 500px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	border-radius: 30px;
+	background-color: #232323;
+	margin-left: 30px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.text_auth_bar {
+	width: 420px;
+	height: 25px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	border-radius: 15px;
+	background-color: #232323;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.signup {
+	width: 420px;
+	height: 380px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	border-radius: 15px;
+	background-color: #232323;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.line1 {
+	color: #fff;
+	background-color: #202020;
+	display: block;
+	height: 50px;
+	width: 300px;
+	margin-left: 60px;
+	margin-top: 20px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	box-shadow: 0 2px 19px rgba(255, 93, 0, 1);
+	border-radius: 20px;
+}
+
+.line1:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 19px #fff;
+}
+
+.line2 {
+	color: #fff;
+	background-color: #202020;
+	display: block;
+	margin-left: 60px;
+	margin-top: 20px;
+	width: 301px;
+	height: 50px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	box-shadow: 0 2px 19px rgba(255, 93, 0, 1);
+	border-radius: 20px;
+}
+
+.line2:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 19px #fff;
+}
+
+.site {
+	color: skyblue;
+}
+
+.site:hover {
+	color: rgba(255, 114, 0, 1);
+}
+
+.line3 {
+	color: #fff;
+	background-color: #202020;
+	display: block;
+	margin-left: 60px;
+	margin-top: 20px;
+	width: 301px;
+	height: 50px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	box-shadow: 0 2px 19px rgba(255, 93, 0, 1);
+	border-radius: 20px;
+}
+
+.line3:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 19px #fff;
+}
+
+.line4 {
+	color: #fff;
+	background-color: #202020;
+	display: block;
+	margin-left: 60px;
+	margin-top: 20px;
+	width: 301px;
+	height: 50px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	box-shadow: 0 2px 19px rgba(255, 93, 0, 1);
+	border-radius: 20px;
+}
+
+.line4:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 19px #fff;
+}
+
+.line6 {
+	color: #fff;
+	background-color: #202020;
+	display: block;
+	margin-left: 60px;
+	margin-top: 20px;
+	width: 301px;
+	height: 50px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	border-radius: 20px;
+}
+
+.line6:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 19px rgba(255, 93, 0, 1);
+}
+
+.main {
+	width: 900px;
+	height: 320px;
+	border: 2px solid rgba(255, 114, 0, 1);
+	border-radius: 30px;
+	background-color: #232323;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.image {
+	background-image: url('img/1.png');
+	width: 300px;
+	height: 300px;
+}
+
+.image1 {
+	background-image: url('img/2.png');
+	width: 300px;
+	height: 300px;
+}
+
+.image2 {
+	background-image: url('img/3.png');
+	width: 300px;
+	height: 300px;
+}
+
+.image3 {
+	background-image: url('img/4.png');
+	width: 300px;
+	height: 300px;
+}
+
+.image4 {
+	background-image: url('img/5.png');
+	width: 300px;
+	height: 300px;
+}
+
+.image5 {
+	background-image: url('img/6.png');
+	width: 300px;
+	height: 300px;
+}
+
+.air {
+	height: 50px;
+}
